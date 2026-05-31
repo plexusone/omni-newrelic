@@ -39,6 +39,8 @@ github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e h1:fD57ERR4JtEqsWb
 github.com/niemeyer/pretty v0.0.0-20200227124842-a10e7caefd8e/go.mod h1:zD1mROLANZcx1PVRCS0qkT7pwLkGfwJo4zjcN/Tysno=
 github.com/pb33f/ordered-map/v2 v2.3.1 h1:5319HDO0aw4DA4gzi+zv4FXU9UlSs3xGZ40wcP1nBjY=
 github.com/pb33f/ordered-map/v2 v2.3.1/go.mod h1:qxFQgd0PkVUtOMCkTapqotNgzRhMPL7VvaHKbd1HnmQ=
+github.com/plexusone/omnisignal v0.1.0 h1:SV5wcpiI2QvW6JAaXWqosC4PTtpW+uojGbsiyRfsw5c=
+github.com/plexusone/omnisignal v0.1.0/go.mod h1:qIdL4+2AO2HU5KNL7pwR7nBLbO2R2BX9xMvP0O1n8+E=
 github.com/plexusone/signal-spec v0.1.0 h1:kXjUwyLPdlRin+rlxVYAfXqd8fQjgss15U/EnUEOIB0=
 github.com/plexusone/signal-spec v0.1.0/go.mod h1:lEUDjR5Sn7uwpVJKWo+x9WLRaj+SEc2CJG/DiB5TMJA=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=

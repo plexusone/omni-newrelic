@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/newrelic/newrelic-client-go/v2 v2.55.1
-	github.com/plexusone/omnisignal v0.0.0
+	github.com/plexusone/omnisignal v0.1.0
 	github.com/plexusone/signal-spec v0.1.0
 )
 
@@ -32,5 +32,3 @@ require (
 	golang.org/x/text v0.37.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-replace github.com/plexusone/omnisignal => ../omnisignal
