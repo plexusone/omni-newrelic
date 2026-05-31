@@ -205,6 +205,10 @@ func main() {
 - [signal-spec](https://github.com/plexusone/signal-spec) - Canonical signal data model
 - [newrelic-client-go](https://github.com/newrelic/newrelic-client-go) - Official New Relic Go SDK
 
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for release history and [RELEASE_NOTES_v0.1.0.md](RELEASE_NOTES_v0.1.0.md) for detailed release notes.
+
 ## License
 
 MIT

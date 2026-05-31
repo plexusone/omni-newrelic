@@ -9,7 +9,7 @@
     {
       "version": "v0.1.0",
       "date": "2026-05-31",
-      "commit": "57411ec",
+      "commit": "a11b3b8",
       "highlights": [
         { "description": "New Relic integrations for PlexusOne omnisignal and omniobserve abstraction layers" },
         { "description": "Signal provider for alert and incident ingestion via omnisignal" },
