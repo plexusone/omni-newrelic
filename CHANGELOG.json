@@ -1,0 +1,46 @@
+{
+  "irVersion": "1.0",
+  "project": "omni-newrelic",
+  "repository": "https://github.com/plexusone/omni-newrelic",
+  "versioning": "semver",
+  "commitConvention": "conventional",
+  "maintainers": ["johncwang@gmail.com"],
+  "releases": [
+    {
+      "version": "v0.1.0",
+      "date": "2026-05-31",
+      "commit": "57411ec",
+      "highlights": [
+        { "description": "New Relic integrations for PlexusOne omnisignal and omniobserve abstraction layers" },
+        { "description": "Signal provider for alert and incident ingestion via omnisignal" },
+        { "description": "Observability provider with telemetry export and data query capabilities" }
+      ],
+      "added": [
+        { "description": "New Relic client wrapper using official newrelic-client-go SDK", "commit": "6ab4d4c" },
+        { "description": "omnisignal provider for fetching, acknowledging, and closing incidents", "commit": "b698fe2" },
+        { "description": "Incident normalization to signal-spec Signal format", "commit": "b698fe2" },
+        { "description": "omniobserve telemetry export via OTLP-based provider re-export", "commit": "87637ce" },
+        { "description": "QueryProvider for reading observability data from New Relic", "commit": "87637ce" },
+        { "description": "NRQL query execution with metadata extraction", "commit": "87637ce" },
+        { "description": "APM application listing and metrics retrieval", "commit": "87637ce" },
+        { "description": "Entity search across all New Relic domains", "commit": "87637ce" },
+        { "description": "Convenience methods for querying logs and distributed traces", "commit": "87637ce" }
+      ],
+      "documentation": [
+        { "description": "README with usage examples for omnisignal and omniobserve", "commit": "57411ec" },
+        { "description": "Configuration documentation for all providers", "commit": "57411ec" }
+      ],
+      "dependencies": [
+        { "description": "newrelic-client-go v2.86.1 for New Relic API access", "commit": "6f58d6a" },
+        { "description": "omnisignal v0.1.0 for signal ingestion abstraction", "commit": "d023631" },
+        { "description": "omniobserve v0.10.0 for observability abstraction", "commit": "87637ce" },
+        { "description": "signal-spec v0.1.0 for canonical signal data model", "commit": "bb52c40" }
+      ],
+      "build": [
+        { "description": "GitHub Actions workflows for CI, linting, and CodeQL SAST", "commit": "6177122" },
+        { "description": "Dependabot configuration for Go modules and GitHub Actions", "commit": "963adbe" },
+        { "description": "golangci-lint configuration", "commit": "aeea517" }
+      ]
+    }
+  ]
+}
