@@ -3,7 +3,7 @@ module github.com/plexusone/omni-newrelic
 go 1.26.0
 
 require (
-	github.com/newrelic/newrelic-client-go/v2 v2.87.1
+	github.com/newrelic/newrelic-client-go/v2 v2.88.0
 	github.com/plexusone/omniobserve v0.10.0
 	github.com/plexusone/omnisignal v0.1.0
 	github.com/plexusone/signal-spec v0.1.0
