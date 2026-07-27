@@ -5,7 +5,7 @@ go 1.26.0
 require (
 	github.com/newrelic/newrelic-client-go/v2 v2.91.0
 	github.com/plexusone/omniobserve v0.11.0
-	github.com/plexusone/omnisignal v0.1.0
+	github.com/plexusone/omnisignal v0.2.0
 	github.com/plexusone/signal-spec v0.2.0
 )
 
